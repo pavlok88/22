@@ -12,14 +12,9 @@
     min-width: 120px;
     max-width: 250px;
     border: 2px solid darkviolet;
-    margin: 0 auto;
+    margin:  auto;
     border-radius: 10px;
 }
-
-.userCardContainer > * {
-    margin: 0 auto;
-}
-
 .userAvatar {
     width: 70px;
     height: 70px;
@@ -29,4 +24,37 @@
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mercedes-Benz_G_63_AMG_%28W_463%2C_3._Facelift%29_%E2%80%93_Frontansicht%2C_7._August_2012%2C_Stuttgart.jpg/305px-Mercedes-Benz_G_63_AMG_%28W_463%2C_3._Facelift%29_%E2%80%93_Frontansicht%2C_7._August_2012%2C_Stuttgart.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.userCardContainer > * {
+    margin: 0 auto;
+}
+.userCardContainer > h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-family: 'Baloo', cursive;
+    padding: inherit;
+    color: rgba(26,11,100,1);
+    text-transform: uppercase;
+}
+
+.userCardContainer > h4{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-family: 'Baloo', cursive;
+    padding: inherit;
+    color: rgba(26,11,100,0.5);
+    text-transform: uppercase;
+}
+.userCardContainer > hr{
+    margin: 10px 20px;
+    border: 1px solid gray;
+    opacity: 0.8;
+}
+.iconContainer{
+    text-align: center;
 }
