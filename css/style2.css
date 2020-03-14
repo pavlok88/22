@@ -1,0 +1,32 @@
+#innerContainer {
+    width: 100%;
+    background-color: #ff9553;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.userCardContainer {
+    background-color: beige;
+    width: 100%;
+    min-width: 120px;
+    max-width: 250px;
+    border: 2px solid darkviolet;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.userCardContainer > * {
+    margin: 0 auto;
+}
+
+.userAvatar {
+    width: 70px;
+    height: 70px;
+    background-color: #0021ff;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mercedes-Benz_G_63_AMG_%28W_463%2C_3._Facelift%29_%E2%80%93_Frontansicht%2C_7._August_2012%2C_Stuttgart.jpg/305px-Mercedes-Benz_G_63_AMG_%28W_463%2C_3._Facelift%29_%E2%80%93_Frontansicht%2C_7._August_2012%2C_Stuttgart.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
